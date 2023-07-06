@@ -918,7 +918,7 @@ blockquote {
 /*Header*/
 .mdl-layout__title, .mdl-layout-title {
   text-transform: capitalize;
-  color: #444;
+  color: #faf8f8;
   font-weight: 700; }
 
 .mdl-layout__container {
@@ -935,11 +935,11 @@ blockquote {
   position: fixed;
   left: 0;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.03), 0 3px 1px -2px rgba(0, 0, 0, 0.03), 0 1px 5px 0 rgba(0, 0, 0, 0.03);
-  background: #fff; }
+  background: #9000d3; }
   .mdl-layout__header .mdl-layout__header-row .mdl-navigation li {
     cursor: pointer; }
   .mdl-layout__header .mdl-layout__header-row .mdl-navigation .mdl-navigation__link {
-    color: #444;
+    color: #ffffff;
     text-transform: capitalize;
     padding: 0 15px;
     position: relative;
@@ -970,7 +970,7 @@ blockquote {
     .mdl-layout__header .mdl-layout__header-row .mdl-navigation li.active .mdl-navigation__link:after {
       width: 100%; }
   .mdl-layout__header .mdl-layout__drawer-button {
-    color: #444; }
+    color: #ffffff; }
     .mdl-layout__header .mdl-layout__drawer-button:focus {
       outline: none; }
   .mdl-layout__header .mdl-button--icon.ver-more-btn {
@@ -1163,9 +1163,9 @@ blockquote {
   left: 0;
   top: 0; }
   .bg-struct.bg-img {
-    background: url("../img/img-bg-1.jpg");
+    background: url("../img/a4.gif");
     background-position: center;
-    background-size: cover; }
+    background-size: aut; }
   .bg-struct.bg-img-2 {
     background: url("../img/img-bg-2.jpg"); }
   .bg-struct.bg-img-3 {
