@@ -53,7 +53,6 @@ html, body {
 
 strong {
   font-weight: bold; }
-
 body {
   color: #848484;
   background: #e2e2e2;
@@ -1958,3 +1957,14 @@ blockquote {
     left: -25px; } }
 
 /*# sourceMappingURL=style.css.map */
+  
+.profile-desc a.link-git:hover {
+  color: rgb(97, 15, 250);
+}
+.profile-desc a.link-git:active {
+  color: rgb(167, 183, 253);
+}
+.profile-desc a.link-git:link {
+  color: rgb(176, 104, 218);
+  text-overflow: clip;
+}
