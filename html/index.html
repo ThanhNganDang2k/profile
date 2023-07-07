@@ -46,12 +46,12 @@
 							<li><span id="blog_drp" class="mdl-navigation__link">blog</span>
 								<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect"
 									data-mdl-for="blog_drp">
-									<li class="mdl-menu__item"><a href="blog-list.html">Blog List</a></li>
-									<li class="mdl-menu__item"><a href="image-blog-post.html">Image Blog Post</a></li>
-									<li class="mdl-menu__item"><a href="gallery-blog-post.html">Gallery Blog Post</a></li>
-									<li class="mdl-menu__item"><a href="youtube-blog-post.html">Youtube Blog Post</a></li>
-									<li class="mdl-menu__item"><a href="vimeo-blog-post.html">Vimeo Blog Post</a></li>
-									<li class="mdl-menu__item"><a href="audio-blog-post.html">Audio Blog Post</a></li>
+									<li class="mdl-menu__item"><a href="">Blog List</a></li>
+									<li class="mdl-menu__item"><a href="">Image Blog Post</a></li>
+									<li class="mdl-menu__item"><a href="">Gallery Blog Post</a></li>
+									<li class="mdl-menu__item"><a href="">Youtube Blog Post</a></li>
+									<li class="mdl-menu__item"><a href="">Vimeo Blog Post</a></li>
+									<li class="mdl-menu__item"><a href="">Audio Blog Post</a></li>
 								</ul>
 							</li>
 							<li><a class="mdl-navigation__link" data-scroll href="#references_sec">references</a></li>
@@ -270,7 +270,8 @@
 													<li>
 														<div class="profile-title">address</div>
 														<div class="profile-desc">
-																1340, Le Duc Tho, Go Vap, Ho Chi Minh
+																<a href="https://www.google.com/maps/place/1340+%C4%90.+L%C3%AA+%C4%90%E1%BB%A9c+Th%E1%BB%8D,+Ph%C6%B0%E1%BB%9Dng+13,+G%C3%B2+V%E1%BA%A5p,+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh+700000,+Vietnam/@10.8541847,106.6547929,17z/data=!3m1!4b1!4m6!3m5!1s0x317529bf209d7377:0xe6c5d94fc6066be1!8m2!3d10.8541794!4d106.6573732!16s%2Fg%2F11hw9mblv2?entry=ttu"
+																 class="link-git">1340, Le Duc Tho, Go Vap, Ho Chi Minh</a>
 														</div>
 													</li>
 													<li>
@@ -305,15 +306,20 @@
 							<h2 class="mb-30">introduce yourself</h2>
 							<div class="row">
 								<div class="col-sm-12 mb-30">
-									<div class="mdl-card mdl-shadow--2dp border-top-yellow pa-35">
+									<div class="mdl-card mdl-shadow--2dp border-top-yellow pa-35" style="padding: 0px;">
 										<div class="testimonial-carousel">
-											<div>
-												<blockquote>HELLO</blockquote>
-												<span class="ref-name block mb-5 mt-20">My name's Thanh Ngan</span>
-												<span class="ref-desgn block">I'm so glad you visited</span>
+											<div >
+												 <marquee direction="up" behavior="slide" scrollamount="3" loop="1" height="78px" style="font-weight: bold; color: rgb(205, 43, 226); 
+												 font-size: 65px; margin-left: 100px; font-style:Georgia; margin-top: 60px;">
+													Hello!</marquee>
+												<span class="ref-name block mb-5 mt-20" style="margin-left: 165px; font-size: 25px; font-weight: bold;">My name's Thanh Ngan</span>
+												
+												
+												<span class="ref-desgn block" style="margin-left: 165px;  font-size: 25px; font-weight: bold;"> I'm so glad you visited</span>
+												<img src="img/dong.gif" style="width: 330px; height: 310px; float: right; margin-top: -190px; margin-left: -50px;">
 											</div>
-											<div>
-												<blockquote >Let me introduce myself, my name is Ngan, I'm 23 years old this year, I am a developer with 1 year experience in this work. I am pretty good at Sap ABAP and have knowledge of ReactJS and NodeJS. My hobbies are traveling, coding and listening to music. I am always enthusiastic to develop myself with the organization. My career desire is to be able to join a software development company so that I have the opportunity to showcase my skills and develop my career. My short term goal is that I want to be a good fullstack software engineer.</blockquote>
+											<div class="i-m">
+												<blockquote style="font-size: 25px; text-align: center; margin-top: 50px;" >Let me introduce myself, my name is Ngan, I'm 23 years old this year, I am a developer with 1 year experience in this work. I am pretty good at Sap ABAP and have knowledge of ReactJS and NodeJS. My hobbies are traveling, coding and listening to music. I am always enthusiastic to develop myself with the organization. My career desire is to be able to join a software development company so that I have the opportunity to showcase my skills and develop my career. My short term goal is that I want to be a good fullstack software engineer.</blockquote>
 												<!-- <span class="ref-name block mb-5 mt-20">Shone doe</span>
 												<span class="ref-desgn block">Lead Designer in Fakebook</span> -->
 											</div>
@@ -400,82 +406,60 @@
 							</div>
 						</section>
 						<!--/Skills Sec-->
-						
-						<!--Profile Sec-->
-						<section id="profile_sec" class="profile-sec sec-pad-top-sm">
-							<h2 class="mb-30">what i do</h2>
-							<div class="row">
-								<div class="col-md-3 col-sm-6 col-xs-12 mb-30">
-									<div class="mdl-card mdl-shadow--2dp">
-										<i class="zmdi zmdi-format-color-fill font-blue profile-icon"></i>
-										<h4 class="mb-15">user interface</h4>
-										<p>A mobile first responsive template with material design.</p>
+							<!--Education Sec-->
+							<section id="education_sec" class="education-sec sec-pad-top-sm">
+								<h2 class="mb-30">education</h2>
+								<div class="timeline-wrap overflow-hide mb-30">
+									<ul class="timeline">
+										<li>
+											<div class="timeline-badge bg-blue no-icon"></div>
+											<div class="timeline-panel mdl-card mdl-shadow--2dp pt-30 pb-30 border-top-blue">
+												<div class="timeline-heading">
+													<h4 class="mb-10">Bachelor of Information Technology</h4>
+													<span class="duration mb-5">2018 - 2022</span>
+													<span class="institution">Grade: Good</span>
+												</div>
+											</div>
+										</li>
 										
-									</div>
-								</div>
-								<div class="col-md-3 col-sm-6 col-xs-12 mb-30">
-									<div class="mdl-card mdl-shadow--2dp">
-										<i class="zmdi zmdi-format-color-text font-green profile-icon"></i>
-										<h4 class="mb-15">branding</h4>										
-										<p>Comes with light and dark options. Suitable for the universe.</p>
-									</div>
-								</div>
-								<div class="col-md-3 col-sm-6 col-xs-12 mb-30">
-									<div class="mdl-card mdl-shadow--2dp">
-										<i class="zmdi zmdi-comments font-yellow profile-icon"></i>
-										<h4 class="mb-15">communication</h4>
-										<p>Extra ordinary setting pannel with lots of awesome features.</p>
+										<li class="timeline-inverted">
+											<div class="timeline-badge bg-green no-icon"></div>
+											<div class="timeline-panel mdl-card mdl-shadow--2dp  pt-30 pb-30 border-top-green">
+												<div class="timeline-heading">
+													<h4 class="mb-10">Student Certificate 5 Good</h4>
+													<span class="duration mb-5">2021 - 2022</span>
+													<span class="institution">Good morals, good study, good volunteering, good fitness, good integration</span>
+												</div>
+											</div>
+										</li>
 										
-									</div>
-								</div>
-								<div class="col-md-3 col-sm-6 col-xs-12 mb-30">
-									<div class="mdl-card mdl-shadow--2dp">
-										<i class="zmdi zmdi-grain font-red profile-icon"></i>
-										<h4 class="mb-15">strategy</h4>
-										<p>Easy customizable framework using bootstrap sass.</p>
-										
-									</div>
-								</div>
-							</div>
-						</section>
-						<!--/Profile Sec-->
-						
-						<!--Portfolio Sec-->
-						<section id="portfolio_sec" class="portfolio-sec sec-pad-top-sm">
-							<div class="mb-15">
-								<!-- <h2 class="pull-left float-none-xs">portfolio</h2> -->
-								<div class="filter-wrap pull-right float-none-xs">
-									<!-- Portfolio Filters --> 
-									<ul id="filters">
-										<!-- <li><a id="all" href="#" data-filter="*" class="active">all</a></li>	
-										<li><a href="#" data-filter=".branding">branding</a></li>
-										<li><a href="#" data-filter=".design">design</a></li>
-										<li><a href="#" data-filter=".photography">photo</a></li>
-										<li><a href="#" data-filter=".web">web</a></li> -->
+										<li>
+											<div class="timeline-badge bg-yellow no-icon"></div>
+											<div class="timeline-panel mdl-card mdl-shadow--2dp pt-30 pb-30 border-top-yellow">
+												<div class="timeline-heading">
+													<h4 class="mb-10">Certificate of Merit for students with excellent achievements</h4>
+													<span class="duration mb-5">2021 - 2023</span>
+													<span class="institution">students with academic excellence throughout the year</span>
+												</div>
+											</div>
+										</li>
+										<li class="timeline-inverted">
+											<div class="timeline-badge bg-red no-icon"></div>
+											<div class="timeline-panel mdl-card mdl-shadow--2dp  pt-30 pb-30 border-top-red">
+												<div class="timeline-heading">
+													<h4 class="mb-10">First prize in An Giang University "Creative Festival" contest</h4>
+													<span class="institution">2021-2022</span>
+													<span class="duration mb-5">Smart sticks for the blind, smart trash cans</span>
+													
+												</div>
+											</div>
+										</li>
+										<li class="clearfix no-float"></li>
 									</ul>
-									<!--/Portfolio Filters -->
-									<div class="clearfix"></div>
 								</div>
-								<div class="clearfix"></div>
-							</div>
-							<div class="gallery-wrap mb-30">
-								<div class="portfolio-wrap project-gallery">
-									<ul id="portfolio" class="portf auto-construct  project-gallery" data-col="3">
-									</ul>
-									
-									<div style="display:none;" id="video1">
-										<video class="lg-video-object lg-html5 video-js vjs-default-skin" controls preload="none">
-											<source src="video/video1.mp4" type="video/webm">
-											<source src="video/video1.webm" type="video/webm">
-											 Your browser does not support HTML5 video.
-										</video>
-									</div>
-								</div>
-							</div>
-						</section>
-						<!--/Portfolio Sec-->
-					
-						<!--Interest Sec-->
+							</section>
+							<!--/Education Sec-->
+							<!--Interest Sec-->
 						<section id="interest_sec" class="interest-sec sec-pad-top-sm">
 							<h2 class="mb-30">interests</h2>
 							<div class="row">
@@ -518,7 +502,43 @@
 							</div>
 						</section>
 						<!--/Interest Sec-->
-						
+						<!--Profile Sec-->
+						<section id="profile_sec" class="profile-sec sec-pad-top-sm">
+							<h2 class="mb-30">what i do</h2>
+							<div class="row">
+								<div class="col-md-3 col-sm-6 col-xs-12 mb-30">
+									<div class="mdl-card mdl-shadow--2dp">
+										<i class="zmdi zmdi-format-color-fill font-blue profile-icon"></i>
+										<h4 class="mb-15">Language: ReactJs, NodeJs</h4>
+										<p>E-Commerce Website Selling Bonsai</p>
+										
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12 mb-30">
+									<div class="mdl-card mdl-shadow--2dp">
+										<i class="zmdi zmdi-format-color-text font-green profile-icon"></i>
+										<h4 class="mb-15">Language: PHP, Bootstrap</h4>										
+										<p>E-Commerce Website Selling shoes</p>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12 mb-30">
+									<div class="mdl-card mdl-shadow--2dp">
+										<i class="zmdi zmdi-comments font-yellow profile-icon"></i>
+										<h4 class="mb-15">Internet Of Things: C++</h4>
+										<p>Smart sticks for the blind, smart trash cans</p>
+										
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12 mb-30">
+									<div class="mdl-card mdl-shadow--2dp">
+										<i class="zmdi zmdi-grain font-red profile-icon"></i>
+										<h4 class="mb-15">Personal blog: CSS, HTML, Bootstrap </h4>
+										<a class="link-git" href="https://profile-delta-kohl.vercel.app/index.html">Introduce myself, experience..., </a>
+										
+									</div>
+								</div>
+							</div>
+						</section>
 						<!--Experience Sec-->
 						<section id="experience_sec" class="experience-sec sec-pad-top-sm">
 							<h2 class="mb-30">experience</h2>
@@ -557,9 +577,9 @@
 											</div>
 											<div class="timeline-body">
 												<p class="mt-25">
-													Name of project: Smart sticks for the blind, smart trash cans 
-													Project scale: 1 person 
-													Position: Developer C/C++ 
+													Name of project: Smart sticks for the blind, smart trash cans <br> 
+													Project scale: 3 person <br>
+													Position: Developer C/C++ <br>
 													Describe: Help the blind avoid obstacles thanks to the distance sensor, notify when there is a water hole ahead thanks to the soil moisture sensor, . . .
 												</p>
 											</div>
@@ -577,9 +597,9 @@
 											</div>
 											<div class="timeline-body">
 												<p class="mt-25">
-													Project scale: 1 person
-													Technologies used: Language ReactJs, NodeJs 
-													Describe: Sellers manage orders, products, inventory statistics,... Buyers manage carts, orders, track order status, evaluate products,...
+													Project scale: 1 person <br>
+													Technologies used: Language ReactJs, NodeJs <br>
+													Describe: Sellers manage orders, products, inventory statistics,... Buyers manage carts, orders, track order status, evaluate products,...<br>
 												</p>
 											</div>
 										</div>
@@ -588,12 +608,12 @@
 										<div class="timeline-badge bg-red no-icon"></div>
 										<div class="timeline-panel mdl-card mdl-shadow--2dp  pt-30 pb-30 border-top-red">
 											<div class="timeline-heading">
-												<h4 class="mb-10">Graphic Design Diploma</h4>
-												<span class="duration mb-5">2008 - 2009</span>
-												<span class="institution">Project scale: 1 person 
-													Technologies used: Language ReactJs, NodeJs 
-													Describe: Sellers manage orders, products, inventory statistics,... 
-													Buyers manage carts, orders, track order status, evaluate products,...
+												<h4 class="mb-10">Personal Blog</h4>
+											
+												<span class="institution">
+													Project scale: 1 person <br>
+													Technologies used: CSS, HTML, Bootstrap<br>
+													Describe: Introduce myself, experience, education, interests, technical skills...,<br>
 												</span>
 											</div>
 										</div>
@@ -603,272 +623,8 @@
 							</div>
 						</section>
 						<!--/Experience Sec-->
-						
-						<!--Education Sec-->
-						<section id="education_sec" class="education-sec sec-pad-top-sm">
-							<h2 class="mb-30">education</h2>
-							<div class="timeline-wrap overflow-hide mb-30">
-								<ul class="timeline">
-									<li>
-										<div class="timeline-badge bg-blue no-icon"></div>
-										<div class="timeline-panel mdl-card mdl-shadow--2dp pt-30 pb-30 border-top-blue">
-											<div class="timeline-heading">
-												<h4 class="mb-10">Bachelor of Information Technology</h4>
-												<span class="duration mb-5">2018 - 2022</span>
-												<span class="institution">Graduation type Good</span>
-											</div>
-										</div>
-									</li>
-									
-									<li class="timeline-inverted">
-										<div class="timeline-badge bg-green no-icon"></div>
-										<div class="timeline-panel mdl-card mdl-shadow--2dp  pt-30 pb-30 border-top-green">
-											<div class="timeline-heading">
-												<h4 class="mb-10">Student Certificate 5 Good</h4>
-												<span class="duration mb-5">2021 - 2022</span>
-												<span class="institution"></span>
-											</div>
-										</div>
-									</li>
-									
-									<li>
-										<div class="timeline-badge bg-yellow no-icon"></div>
-										<div class="timeline-panel mdl-card mdl-shadow--2dp pt-30 pb-30 border-top-yellow">
-											<div class="timeline-heading">
-												<h4 class="mb-10">Certificate of Merit for students with excellent achievements</h4>
-												<span class="duration mb-5">2021 - 2023</span>
-												<span class="institution"></span>
-											</div>
-										</div>
-									</li>
-									<li class="timeline-inverted">
-										<div class="timeline-badge bg-red no-icon"></div>
-										<div class="timeline-panel mdl-card mdl-shadow--2dp  pt-30 pb-30 border-top-red">
-											<div class="timeline-heading">
-												<h4 class="mb-10">Graphic Design Diploma</h4>
-												<span class="duration mb-5">2008 - 2009</span>
-												<span class="institution">Shorepath Collegiate Institute</span>
-											</div>
-										</div>
-									</li>
-									<li class="clearfix no-float"></li>
-								</ul>
-							</div>
-						</section>
-						<!--/Education Sec-->
-						
-						<!--Blog Sec-->
-						<section id="blog_sec" class="blog-sec sec-pad-top-sm">
-							<!-- <h2 class="mb-30">blog</h2> -->
-							<div class="row">
-								<div class="col-sm-4 mb-30">
-									<!-- <div class="mdl-card mdl-shadow--2dp pa-0">
-										<div class="mdl-card__title pa-0">
-											<div class="blog-img blog-1"></div>
-										</div>
-										<div class="mdl-card__supporting-text relative">
-											<span class="blog-cat">travel</span>
-											<a href="youtube-blog-post.html">
-												<h4 class="mt-15 mb-20">Fly High with youtube</h4>
-											</a>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eleifend lacinia...</p>
-											<a href="youtube-blog-post.html" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect bg-red mdl-shadow--8dp">
-												<i class="zmdi zmdi-youtube-play"></i>
-											</a>
-										</div>
-										<div class="mdl-card__actions mdl-card--border">
-											<span class="blog-post-date inline-block">21.1.17</span>
-											<div class="mdl-layout-spacer"></div>
-											<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect mr-5">
-												<i class="zmdi zmdi-favorite"></i>
-											</button>	
-											<button id ="share_menu_1" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-												<i class="zmdi zmdi-share"></i>
-											</button>
-											<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
-												data-mdl-for="share_menu_1">
-											  <li class="mdl-menu__item">Facebook</li>
-											  <li class="mdl-menu__item">Twitter</li>
-											  <li class="mdl-menu__item">LinkedIn</li>
-											</ul>
-										</div>
-									</div> -->
-								</div>
-								<!-- <div class="col-sm-4 mb-30">
-									<div class="mdl-card mdl-shadow--2dp pa-0">
-										<div class="mdl-card__title pa-0">
-											<div class="blog-img blog-2"></div>
-										</div>
-										<div class="mdl-card__supporting-text relative">
-											<span class="blog-cat">photography</span>
-											<a href="image-blog-post.html">
-												<h4 class="mt-15 mb-20">Iceland live in images</h4>
-											</a>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eleifend lacinia...</p>
-											<a href="image-blog-post.html" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect bg-blue mdl-shadow--8dp">
-												<i class="zmdi zmdi-image-o"></i>
-											</a>
-										</div>
-										<div class="mdl-card__actions mdl-card--border">
-											<span class="blog-post-date inline-block">15.1.17</span>
-											<div class="mdl-layout-spacer"></div>
-											<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect mr-5">
-												<i class="zmdi zmdi-favorite"></i>
-											</button>	
-											<button id ="share_menu_2" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-												<i class="zmdi zmdi-share"></i>
-											</button>
-											<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
-												data-mdl-for="share_menu_2">
-											  <li class="mdl-menu__item">Facebook</li>
-											  <li class="mdl-menu__item">Twitter</li>
-											  <li class="mdl-menu__item">LinkedIn</li>
-											</ul>
-										</div>
-									</div>
-								</div> -->
-								<div class="col-sm-4 mb-30">
-									<div class="mdl-card mdl-shadow--2dp pa-0">
-										<!-- <div class="mdl-card__title pa-0">
-											<div class="blog-img blog-3"></div>
-										</div> -->
-										<!-- <div class="mdl-card__supporting-text relative">
-											<span class="blog-cat">science</span>
-											<a href="gallery-blog-post.html">
-												<h4 class="mt-15 mb-20">Grand canyon mysteries</h4>
-											</a>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eleifend lacinia...</p>
-											<a href="gallery-blog-post.html" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect bg-green mdl-shadow--8dp">
-												<i class="zmdi zmdi-collection-image-o"></i>
-											</a>
-										</div> -->
-										<!-- <div class="mdl-card__actions mdl-card--border">
-											<span class="blog-post-date inline-block">9.1.17</span>
-											<div class="mdl-layout-spacer"></div>
-											<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect mr-5">
-												<i class="zmdi zmdi-favorite"></i>
-											</button>	
-											<button id ="share_menu_3" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-												<i class="zmdi zmdi-share"></i>
-											</button>
-											<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
-												data-mdl-for="share_menu_3">
-											  <li class="mdl-menu__item">Facebook</li>
-											  <li class="mdl-menu__item">Twitter</li>
-											  <li class="mdl-menu__item">LinkedIn</li>
-											</ul>
-										</div> -->
-									</div>
-								</div>
-							</div>
-							<div class="text-center mt-20 mb-30">
-								<!-- <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect  margin-lr-auto view-more" href="blog-list.html">view all</a> -->
-							</div>	
-						</section>	
-						<!--/Blog Sec-->
-						
-						<!--References Sec-->
-						
-						<!--/References Sec-->
-						
-						<!--Client Sec-->
-						<section id="client_sec" class="client-sec sec-pad-top-sm">
-							<!-- <div class="row">  -->
-							<div style="width: auto;">
-								<!-- <div class="col-sm-12 mb-30"> -->
-								<!-- <div> -->
-									<!-- <div class="client-carousel">
-										<img src="img/anh1.png" alt="client" style="width: 300px; ">
-										<img src="img/anh1.png" alt="client"  style="height: 300px; width:300px">
-										<img src="img/anh1.png" alt="client">
-										<img src="img/anh1.png" alt="client">
-										<img src="img/anh2.png" alt="client">
-										<img src="img/background-canh-dong_032846108.gif" alt="client">
-									</div> -->
-								<!-- </div> -->
-							</div>
-						</section>
-						<!--/Client Sec-->
+						<!--/Profile Sec-->
 					
-						<!--Price Sec-->
-						<section id="price_sec" class="price-sec sec-pad-top-sm">
-							<!-- <h2 class="mb-30">pricing</h2> -->
-							<div class="row">
-								<!-- item -->
-								<div class="col-sm-4 text-center mb-30">
-									<div class="mdl-card mdl-shadow--2dp pa-0">
-										<!-- <div class="mdl-card__title pa-0"> -->
-											<!-- <h5 class="block pt-25 pb-20">basic</h5>
-											<div class="price-bg">
-												<span class="panel-price block font-blue"><span class="pricing-dolor">$</span>49</span>
-												<span class="pricing-plan block pt-10">per month</span>
-											</div>	 -->
-										<!-- </div> -->
-										<!-- <div class="mdl-card__supporting-text text-center pa-0">
-											<ul class="list-group mb-0 text-center">
-												<li class="list-group-item">1 website</li>
-												<li class="list-group-item">30 GB Storage</li>
-												<li class="list-group-item">Unlimited bandwidth</li>
-												<li class="list-group-item">Free email included</li>
-											</ul>
-										</div> -->
-										<!-- <div class="mdl-card__actions pt-30 pb-30">
-											<a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect  bg-green font-white" href="#">buy now</a>
-										</div> -->
-									</div>
-								</div>
-								<!-- /item -->
-								<!-- item -->
-								<div class="col-sm-4 text-center mb-30">
-									<div class="mdl-card mdl-shadow--2dp pa-0">
-										<!-- <div class="mdl-card__title pa-0">
-											<h5 class="block pt-25 pb-20">standard</h5>
-											<div class="price-bg">
-												<span class="panel-price block font-blue"><span class="pricing-dolor">$</span>99</span>
-												<span class="pricing-plan block pt-10">per month</span>
-											</div>	
-										</div>
-										<div class="mdl-card__supporting-text text-center pa-0">
-											<ul class="list-group mb-0 text-center">
-												<li class="list-group-item">1 website</li>
-												<li class="list-group-item">100 GB storage</li>
-												<li class="list-group-item">Unlimited bandwidth</li>
-												<li class="list-group-item">Free domain & email</li>
-											</ul>
-										</div>
-										<div class="mdl-card__actions pt-30 pb-30">
-											<a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect  bg-green font-white" href="#">buy now</a>
-										</div> -->
-									</div>
-								</div>
-								<!-- /item -->
-								<!-- item -->
-								<div class="col-sm-4 text-center mb-30">
-									<div class="mdl-card mdl-shadow--2dp pa-0">
-										<!-- <div class="mdl-card__title pa-0">
-											<h5 class="block pt-25 pb-20">business</h5>
-											<div class="price-bg">
-												<span class="panel-price block font-blue"><span class="pricing-dolor">$</span>199</span>
-												<span class="pricing-plan block pt-10">per month</span>
-											</div>	
-										</div>
-										<div class="mdl-card__supporting-text text-center pa-0">
-											<ul class="list-group mb-0 text-center">
-												<li class="list-group-item">Unlimited websites</li>
-												<li class="list-group-item">Unlimited storage</li>
-												<li class="list-group-item">Unlimited bandwidth</li>
-												<li class="list-group-item">Free domain & email</li>
-											</ul>
-										</div>
-										<div class="mdl-card__actions pt-30 pb-30">
-											<a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect  bg-green font-white" href="#">buy now</a>
-										</div> -->
-									</div>
-								</div>
-								<!-- /item -->
-							</div>	
-						</section>
-						<!--/Price Sec-->
 						
 						<!--Contact Sec-->
 						<section id="contact_sec" class="contact-sec sec-pad-top-sm">
